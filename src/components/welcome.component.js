@@ -31,11 +31,11 @@ class Welcome extends React.Component {
     }
 }
 
-// const Welcome = (props) => {
+// const Welcome = ({name, alias}) => {
 //     return (
 //         <div>
-//             <h1>Hello, {props.name} aka {props.alias}</h1>
-//             {props.children}
+//             <h1>Hello, {name} aka {alias}</h1>
+            
 //         </div>
 //     )
 // }
