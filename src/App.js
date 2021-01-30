@@ -3,6 +3,7 @@ import './App.css';
 import Welcome from './components/welcome.component';
 import Counter from './components/counter.component';
 import FunctionClick from './components/functionClick.component';
+import ClassClick from './components/class-click.component';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <br />
       <Counter />
       <FunctionClick></FunctionClick>
+      <ClassClick></ClassClick>
     </div>
   );
 }
