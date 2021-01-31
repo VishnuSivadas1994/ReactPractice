@@ -6,6 +6,7 @@ import FunctionClick from './components/functionClick.component';
 import ClassClick from './components/class-click.component';
 import EventBind from './components/event-bind.component';
 import ParentComponent from './components/parent-component';
+import UserGreeting from './components/user-greeting.component';
 
 function App() {
   return (
@@ -32,6 +33,11 @@ function App() {
       <p>The following will pass a function from parent.js to child.js and in return 
       get another prop from child and use it in the function in parent.js</p>
       <ParentComponent></ParentComponent>
+      <br/>
+      <br/>
+      <br/>
+      <p>Conditional Rendering... if else...element variables... ternary conditional operator... short circuit operator</p>
+      <UserGreeting/>
     </div>
   );
 }
