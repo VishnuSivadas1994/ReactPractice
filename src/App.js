@@ -5,6 +5,7 @@ import Counter from './components/counter.component';
 import FunctionClick from './components/functionClick.component';
 import ClassClick from './components/class-click.component';
 import EventBind from './components/event-bind.component';
+import ParentComponent from './components/parent-component';
 
 function App() {
   return (
@@ -20,6 +21,11 @@ function App() {
       <br/>
       <br/>
       <EventBind></EventBind>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <ParentComponent></ParentComponent>
     </div>
   );
 }
