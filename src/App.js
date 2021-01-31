@@ -7,6 +7,7 @@ import ClassClick from './components/class-click.component';
 import EventBind from './components/event-bind.component';
 import ParentComponent from './components/parent-component';
 import UserGreeting from './components/user-greeting.component';
+import NameList from './components/namelist.component';
 
 function App() {
   return (
@@ -38,6 +39,11 @@ function App() {
       <br/>
       <p>Conditional Rendering... if else...element variables... ternary conditional operator... short circuit operator</p>
       <UserGreeting/>
+      <br/>
+      <br/>
+      <br/>
+      <p>Rendering a list using Map</p>
+      <NameList/>
     </div>
   );
 }
