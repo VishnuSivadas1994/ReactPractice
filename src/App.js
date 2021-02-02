@@ -8,6 +8,9 @@ import EventBind from './components/event-bind.component';
 import ParentComponent from './components/parent-component';
 import UserGreeting from './components/user-greeting.component';
 import NameList from './components/namelist.component';
+import Stylesheet from './components/stylesheet.component';
+import Inline from './components/inline';
+
 
 function App() {
   return (
@@ -44,6 +47,12 @@ function App() {
       <br/>
       <p>Rendering a list using Map</p>
       <NameList/>
+      <br/>
+      <br/>
+      <br/>
+      <p></p>
+      <Stylesheet primary ={true}/>
+      <Inline/>
     </div>
   );
 }
