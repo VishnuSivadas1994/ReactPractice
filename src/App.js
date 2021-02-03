@@ -27,38 +27,46 @@ function App() {
       <FunctionClick></FunctionClick>
       <p>Following shows event handling in a class</p>
       <ClassClick></ClassClick>
-      <br/>
-      <br/>
+      <br />
+      <br />
       <p>The following will describe four methods of event binding</p>
       <EventBind></EventBind>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <p>The following will pass a function from parent.js to child.js and in return 
+      <br />
+      <br />
+      <br />
+      <br />
+      <p>The following will pass a function from parent.js to child.js and in return
       get another prop from child and use it in the function in parent.js</p>
       <ParentComponent></ParentComponent>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
       <p>Conditional Rendering... if else...element variables... ternary conditional operator... short circuit operator</p>
-      <UserGreeting/>
-      <br/>
-      <br/>
-      <br/>
+      <UserGreeting />
+      <br />
+      <br />
+      <br />
       <p>Rendering a list using Map</p>
-      <NameList/>
-      <br/>
-      <br/>
-      <br/>
+      <NameList />
+      <br />
+      <br />
+      <br />
       <p></p>
-      <Stylesheet primary ={true}/>
-      <Inline/>
-      <br/>
-      <br/>
-      <br/>
+      <Stylesheet primary={true} />
+      <Inline />
+      <br />
+      <br />
+      <br />
       <p>Handling Forms</p>
-      <Form/>
+      <Form />
+      <br />
+      <br />
+      <br />
+      <p>Lifecycle Methods:: <br />Mounting: constructor, static getDerivedStateFromProps, render and componentDidMount
+      <br />Updating: static getDerivedStateFromProps, shouldComponentUpdate, render,
+        getSnapshotBeforeUpdate and componentDidUpdate
+      <br />Unmounting: componentWillUnmount
+      <br />Error Handling: static getDerivedStateFromError and componentDidCatch</p>
     </div>
   );
 }
