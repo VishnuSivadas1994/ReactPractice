@@ -10,6 +10,7 @@ import UserGreeting from './components/user-greeting.component';
 import NameList from './components/namelist.component';
 import Stylesheet from './components/stylesheet.component';
 import Inline from './components/inline';
+import Form from './components/form';
 
 
 function App() {
@@ -53,6 +54,11 @@ function App() {
       <p></p>
       <Stylesheet primary ={true}/>
       <Inline/>
+      <br/>
+      <br/>
+      <br/>
+      <p>Handling Forms</p>
+      <Form/>
     </div>
   );
 }
