@@ -12,6 +12,8 @@ import Stylesheet from './components/stylesheet.component';
 import Inline from './components/inline';
 import Form from './components/form';
 import LifecycleA from './components/lifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table1 from './components/table';
 
 
 function App() {
@@ -76,7 +78,9 @@ function App() {
       <br />
       <br />
       <br />
-      <p></p>
+      <p>Fragments</p>
+      <FragmentDemo/>
+      <Table1></Table1>
     </div>
   );
 }
