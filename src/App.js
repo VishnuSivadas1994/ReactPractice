@@ -71,8 +71,12 @@ function App() {
       <br />
       <br />
       <br />
-      <p>Mounting Lifecycle methods</p>
+      <p>Lifecycle methods</p>
       <LifecycleA/>
+      <br />
+      <br />
+      <br />
+      <p></p>
     </div>
   );
 }
