@@ -14,6 +14,8 @@ import Form from './components/form';
 import LifecycleA from './components/lifecycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table1 from './components/table';
+import PureComp from './components/PureComponent';
+import ParentComp from './components/ParentComp';
 
 
 function App() {
@@ -81,6 +83,10 @@ function App() {
       <p>Fragments</p>
       <FragmentDemo/>
       <Table1></Table1>
+      <br />
+      <br />
+      <br />
+      <ParentComp/>
     </div>
   );
 }
