@@ -11,6 +11,7 @@ import NameList from './components/namelist.component';
 import Stylesheet from './components/stylesheet.component';
 import Inline from './components/inline';
 import Form from './components/form';
+import LifecycleA from './components/lifecycleA';
 
 
 function App() {
@@ -67,6 +68,11 @@ function App() {
         getSnapshotBeforeUpdate and componentDidUpdate
       <br />Unmounting: componentWillUnmount
       <br />Error Handling: static getDerivedStateFromError and componentDidCatch</p>
+      <br />
+      <br />
+      <br />
+      <p>Mounting Lifecycle methods</p>
+      <LifecycleA/>
     </div>
   );
 }
