@@ -5,7 +5,7 @@ function MemoComp({name}) {
 
     return (
         <div>
-            {name}
+            {name}.
         </div>
     )
 }
