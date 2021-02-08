@@ -17,6 +17,7 @@ import Table1 from './components/table';
 import PureComp from './components/PureComponent';
 import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
 
 
 function App() {
@@ -93,6 +94,7 @@ function App() {
       <br />
       <p>Refs</p>
       <RefsDemo/>
+      <FocusInput/>
     </div>
   );
 }
