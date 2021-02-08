@@ -16,6 +16,7 @@ import FragmentDemo from './components/FragmentDemo';
 import Table1 from './components/table';
 import PureComp from './components/PureComponent';
 import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 
 
 function App() {
@@ -87,6 +88,11 @@ function App() {
       <br />
       <br />
       <ParentComp/>
+      <br />
+      <br />
+      <br />
+      <p>Refs</p>
+      <RefsDemo/>
     </div>
   );
 }
