@@ -1,9 +1,10 @@
 #canvas1{
-    position: absolute;
+    position: relative;
     /* border: 2px solid black; */
     background: white;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 50%;
     height: 50%;
+     
 }
